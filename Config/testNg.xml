@@ -1,16 +1,24 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Cases" verbose="1">
 
-    <listeners>
-        <listener class-name="Report.Listener"></listener>
-    </listeners>
+<!--    <listeners>-->
+<!--        <listener class-name="Report.Listener"></listener>-->
+<!--    </listeners>-->
 
-    <test name="Verify Computer Items">
+<!--    <test name="Verify Computer Items">-->
+<!--        <parameter name="browserName" value="chrome"/>-->
+
+<!--        <classes>-->
+<!--            <class name="ComputerSectionTest.AddItemsOfComputer"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <test name="Verify apparelWistList">
         <parameter name="browserName" value="chrome"/>
+
         <classes>
-            <class name="ComputerSectionTest.AddItemsOfComputer"/>
+            <class name="ComputerSectionTest.ApparelTest"/>
         </classes>
     </test>
-
 </suite>
 
